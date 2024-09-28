@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="title" content="Readymade">
+    <meta name="description" content="Site Description">
+    <meta name="keywords" content="Readymade">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="author" content="Afroza Sima">
+
+	<title>Readymade</title>
+	<!--favicon-->
+	<link rel="icon" type="images/x-icon" href="images/favicon.png">
+
+	<!--font link-->
+	<!--css link-->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/bootstrap-icons.css">
+
+
+</head>
+<body>
+	<div class="container">
+		<h1 class="info">Personal Information</h1>
+		<!--form start-->
+<form class="row g-3 needs-validation" novalidate>
+
+	<!--first Name-->
+    <div class="col-md-6">
+    <label for="f_name" class="form-label">First name</label>
+    <input type="text" class="form-control f_name" id="f_name" name="f_name" placeholder="Enter Your First Name" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+     <div class="invalid-feedback">
+        Enter Your First Name.
+      </div>
+    </div>
+
+    <!--last Name-->
+   <div class="col-md-6">
+    <label for="l_name" class="form-label">Last name</label>
+    <input type="text" class="form-control l_name" id="l_name" name="l_name" placeholder="Enter Your last Name" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+        Enter Your Last Name.
+      </div>
+  </div>
+
+  <!--email-->
+   <div class="col-md-12">
+    <label for="email" class="form-label">Email Address</label>
+    <input type="email" class="form-control email" id="email" name="email" placeholder="Enter Your Email Address" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+        Enter Your Email Address.
+      </div>
+  </div>
+
+  <!--Gender-->
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox1">
+  <label class="form-check-label" for="inlineCheckbox1">Male</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox2">
+  <label class="form-check-label" for="inlineCheckbox2">Female</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" >
+  <label class="form-check-label" for="inlineCheckbox3">Others</label>
+</div> 
+
+
+<div class="mb-3">
+  <label for="formFile" class="form-label">Default file input example</label>
+  <input class="form-control" type="file" id="formFile">
+</div>
+
+<!--check box-->
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+
+</form>
+		<!--form end-->
+	</div>
+
+<!--js link-->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
